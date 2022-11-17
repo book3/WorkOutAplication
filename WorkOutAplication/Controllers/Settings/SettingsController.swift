@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SettingsController.swift
 //  WorkOutAplication
 //
 //  Created by Yntymak on 12/11/22.
@@ -7,13 +7,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SettingsController: WABaseController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        title = "Settings"
     }
 
 
 }
-
